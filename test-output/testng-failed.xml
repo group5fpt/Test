@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="java4.TestUpdate">
+        <methods>
+          <include name="suiteSetUp"/>
+          <include name="afterClass"/>
+          <include name="TestUpdate10"/>
+          <include name="TestUpdate11"/>
+          <include name="TestUpdate12"/>
+          <include name="TestUpdate9"/>
+          <include name="TestUpdate8"/>
+        </methods>
+      </class> <!-- java4.TestUpdate -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
